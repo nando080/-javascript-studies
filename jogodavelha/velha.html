@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>.:Jogo da Velha:.</title>
+    <link rel="stylesheet" href="velha.css">
+</head>
+<body>
+    <h1>JOGO DA VELHA</h1>
+    <select name="nivel" id="nivel">
+        <option value="1" selected>CPU#lvl 1</option>
+        <option value="2">CPU#lvl 2</option>
+        <option value="3">2 jogadores</option>
+    </select>
+    <div id="tabuleiro">
+        <div id="p1" class="tabcell regular"></div>
+        <div id="p2" class="tabcell regular"></div>
+        <div id="p3" class="tabcell regular"></div>
+        <div id="p4" class="tabcell regular"></div>
+        <div id="p5" class="tabcell regular"></div>
+        <div id="p6" class="tabcell regular"></div>
+        <div id="p7" class="tabcell regular"></div>
+        <div id="p8" class="tabcell regular"></div>
+        <div id="p9" class="tabcell regular"></div>
+    </div>
+    <h2 id="statusjogo"></h2>
+    <div id="cointainerbotoes">
+        
+    </div>
+
+    <div id="placar">
+        <table>
+            <tr>
+                <th id="nomejogador1" class="thtabela">jogador #1</th>
+                <th id="nomejogador2" class="thtabela">jogador #2</th>
+            </tr>
+            <tr>
+                <td id="pontosjg1" class="tdtabela">0</td>
+                <td id="pontosjg2" class="tdtabela">0</td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="velha.js"></script>
+</body>
+</html>

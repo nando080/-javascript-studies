@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+@font-face {
+    font-family: brushed;
+    src: url(fonte/blowbrush.ttf);
+}
+
+h1 {
+    font-family: brushed;
+    color: coral;
+    font-size: 38pt;
+    margin: 30px 0px 20px 0px;
+}
+
+h2 {
+    color: aquamarine;
+}
+
+select {
+    width: 120px;
+    padding: 3px 10px;
+    cursor: pointer;
+    color: coral;
+    border-color: aquamarine;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.startbutton {
+    background-color: aquamarine;
+    border-width: 0px;
+    padding: 5px 35px;
+    border-radius: 5px;
+    color: coral;
+    font-weight: bolder;
+    font-size: 12pt;
+    cursor: pointer;
+}
+
+#tabuleiro {
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    vertical-align: 50%;
+    justify-content: center;
+    align-content: center;
+    padding: 15px;
+    border-radius: 20px;
+    border: 4px solid coral;
+}
+
+.tabcell {
+    display: flex;
+    width: 90px;
+    height: 90px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: aquamarine;
+    font-family: brushed;
+    font-size: 70pt;
+}
+.vencedor {
+    color: aquamarine;
+}
+.regular {
+    color: coral;
+}
+
+#p1 {
+    border-width: 0px 2px 2px 0px;
+}
+
+#p2 {
+    border-width: 0px 2px 2px 2px;
+}
+
+#p3 {
+    border-width: 0px 0px 2px 2px;
+}
+
+#p4 {
+    border-width: 2px 2px 2px 0px;
+}
+
+#p5 {
+    border-width: 2px;
+}
+
+#p6 {
+    border-width: 2px 0px 2px 2px;
+}
+
+#p7 {
+    border-width: 2px 2px 0px 0px;
+}
+
+#p8 {
+    border-width: 2px 2px 0px 2px;
+}
+
+#p9 {
+    border-width: 2px 0px 0px 2px;
+}
+
+#placar {
+    border: 3px solid coral;
+    border-radius: 7px;
+    width: 230px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    border-collapse: collapse;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.thtabela {
+    border-style: solid;
+    border-color: aquamarine;
+    padding: 5px 10px 5px 10px;
+    color: coral;
+    font-weight: bold;
+}
+
+#nomejogador1 {
+    border-width: 0px 2px 2px 0px;
+}
+
+#nomejogador2 {
+    border-width: 0px 0px 2px 2px;
+}
+
+.tdtabela {
+    border-style: solid;
+    border-color: aquamarine;
+    padding: 2px 10px 2px 10px;
+    color: aquamarine;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+#pontosjg1 {
+    border-width: 0px 2px 0px 0px;
+}
+#pontosjg2 {
+    border-width: 0px 0px 0px 2px;
+}

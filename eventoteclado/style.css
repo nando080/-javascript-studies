@@ -1,0 +1,11 @@
+#elemento {
+
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 0;
+    top: 0;
+    background-color: #a52a2a;
+    border: 3px solid #570b0b;
+
+}
